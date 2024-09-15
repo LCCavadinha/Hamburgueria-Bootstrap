@@ -1,1 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    font-family: "Quicksand", system-ui;
+}
+
+header {
+    background: #292828;
+}
+
+header img {
+    height: 10vh;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #be9260;
+}
+
+.navbar-toggler {
+    background-color: #be9260;
+}
