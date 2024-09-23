@@ -16,8 +16,14 @@ header img {
 .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-cardapio  {
     color: #be9260;
+}
+
+.nav-link.active:hover,
+.nav-link:hover {
+    background-color: #be926070;
+    color: #292828;
 }
 
 .navbar-toggler {
@@ -40,4 +46,57 @@ header img {
     height: 100%;
     background: linear-gradient(transparent, rgb(31, 31, 31));
     position: absolute;
+}
+
+#about img {
+    height: 100%;
+}
+
+#cardapio img {
+    height: 15vw;
+    object-fit: cover;
+}
+
+.row {
+    row-gap: 1rem;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #be9260;
+}
+
+@media screen and (max-width: 1200px) { 
+    .col-md-3 {
+        width: 33% !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .col-md-3 {
+        width: 50% !important;
+    }
+
+    .col-md-2 {
+        width: 100% !important;
+    }
+
+    .col-md-10 {
+        width: 100% !important;
+    }
+
+    #cardapio img {
+        height: 26vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-3 {
+        width: 100% !important;
+    }
+
+    #cardapio img {
+        height: 50vw;
+        object-fit: cover;
+    }
 }
