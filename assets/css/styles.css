@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 body {
     font-family: "Quicksand", system-ui;
 }
 
-header {
+header, footer {
     background: #292828;
 }
 
@@ -16,7 +16,9 @@ header img {
 .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio  {
+.nav-cardapio,
+footer h3,
+footer a  {
     color: #be9260;
 }
 
@@ -60,6 +62,32 @@ header img {
 .row {
     row-gap: 1rem;
 }
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #292828;
+}
+
+#fale-conosco,
+#eventos {
+    background-color: #7c6c6c50;
+}
+
+
+.btn {
+    --bs-btn-bg: #be9260;
+    --bs-btn-border-color: #be9260;
+    --bs-btn-hover-bg: #c1843e;
+    --bs-btn-hover-border-color: #be9260;
+    --bs-btn-active-bg: #c1843e;
+    --bs-btn-active-border-color:#c1843e;
+    }
+
 
 .nav-pills .nav-link.active {
     background-color: #be9260;
